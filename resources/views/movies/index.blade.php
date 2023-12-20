@@ -15,3 +15,7 @@
     <a href="{{ route('movies.show', $movie->id) }}" class="btn btn-primary">Read more</a>
   </div>
 </div>
+
+@endforeach
+
+@endsection
